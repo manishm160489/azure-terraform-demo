@@ -20,6 +20,6 @@ variable "location" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "rg-terraform-demo"
+  name     = "rg-terraform-demo1"
   location = var.location
 }
